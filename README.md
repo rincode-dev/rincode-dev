@@ -12,8 +12,8 @@
 **Robô garçom em miniatura com ESP32-CAM**: vídeo ao vivo e controle pelo navegador, simulador completo no PC e um modo autônomo que segue uma fita no chão até a mesa certa.
 
 <p align="center">
-  <img src="imagens/modelo_3d.gif" alt="Modelo 3D do Bandejito girando, com a carcaça e depois por dentro" width="360">
-  <img src="imagens/simulador_autonomo.gif" alt="Simulador do Bandejito: o robô leva o pedido até a mesa 2 e volta para a base" width="360">
+  <img src="imagens/modelo_3d.gif" alt="Modelo 3D do Bandejito girando, com a carcaça e depois por dentro" height="300">
+  <img src="imagens/simulador_autonomo.gif" alt="Simulador do Bandejito: o robô leva o pedido até a mesa 2 e volta para a base" height="300">
 </p>
 
 - 📡 O robô cria a própria rede Wi-Fi e serve um painel web com vídeo MJPEG
@@ -21,6 +21,10 @@
 - 🖥️ Simulador em Node.js com a mesma API do firmware, para testar sem hardware
 - 🧭 Seguidor de linha com controle PD, fila de pedidos e freio diante de obstáculos (no simulador)
 - 🖨️ Carcaça 3D paramétrica gerada por código (CadQuery/OpenSCAD)
+
+| Painel de controle (vídeo ao vivo + direção) | Página de pedidos (modo autônomo) |
+|---|---|
+| ![Painel de controle do robô](imagens/painel.png) | ![Página de pedidos](imagens/pedidos.png) |
 
 👉 **[Ver o repositório](https://github.com/rincode-dev/robo-garcom-iot)** · Status: software pronto e testado no simulador, montagem do robô físico em andamento.
 
