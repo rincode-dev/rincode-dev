@@ -13,7 +13,7 @@
 
 <p align="center">
   <img src="imagens/modelo_3d.gif" alt="Modelo 3D do Bandejito girando, com a carcaça e depois por dentro" height="300">
-  <img src="imagens/simulador_autonomo.gif" alt="Teste completo no simulador: pedido para a Mesa 3, pessoa no caminho, entrega, meia-volta e volta ao balcão" height="300">
+  <img src="imagens/bandejito_maquete_3d.gif" alt="Teste completo no simulador: pedido para a Mesa 3, pessoa no caminho, entrega, meia-volta e volta ao balcão" height="300">
 </p>
 
 - 📡 O robô cria a própria rede Wi-Fi e serve um painel web com vídeo MJPEG
