@@ -9,17 +9,17 @@
 
 ## 🤖 Projeto em destaque: Bandejito 1.0
 
-**Robô garçom em miniatura com ESP32-CAM**: vídeo ao vivo e controle pelo navegador, simulador completo no PC e um modo autônomo que segue uma fita no chão até a mesa certa.
+**Robô garçom em miniatura com ESP32-CAM**: vídeo ao vivo e controle pelo navegador, simulador completo no PC e um modo autônomo que segue uma fita no chão até a mesa certa, dá meia-volta e volta para o balcão.
 
 <p align="center">
   <img src="imagens/modelo_3d.gif" alt="Modelo 3D do Bandejito girando, com a carcaça e depois por dentro" height="300">
-  <img src="imagens/simulador_autonomo.gif" alt="Simulador do Bandejito: o robô leva o pedido até a mesa 2 e volta para a base" height="300">
+  <img src="imagens/simulador_autonomo.gif" alt="Simulador do Bandejito: o robô leva o pedido até a mesa 2, dá meia-volta e volta para o balcão" height="300">
 </p>
 
 - 📡 O robô cria a própria rede Wi-Fi e serve um painel web com vídeo MJPEG
 - 🛑 Parada de segurança automática se a conexão cair
 - 🖥️ Simulador em Node.js com a mesma API do firmware, para testar sem hardware
-- 🧭 Seguidor de linha com controle PD, fila de pedidos e freio diante de obstáculos (no simulador)
+- 🧭 Seguidor de linha com controle PD, meia-volta no lugar, fila de pedidos e freio diante de obstáculos (no simulador)
 - 🖨️ Carcaça 3D paramétrica gerada por código (CadQuery/OpenSCAD)
 
 | Painel de controle (vídeo ao vivo + direção) | Página de pedidos (modo autônomo) |
