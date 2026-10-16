@@ -13,7 +13,7 @@
 
 <p align="center">
   <img src="imagens/bandejito_esqueleto_3d.gif" alt="Modelo 3D do Bandejito: volta completa, portinhas abrindo e fechando, montagem peça por peça, eletrônica e fios por dentro e o chassi" height="300">
-  <img src="imagens/bandejito_maquete_3d.gif" alt="Animação 3D na maquete: o Bandejito leva um copo à Mesa 2, espera uma pessoa sair do caminho, entrega e volta ao balcão" height="300">
+  <img src="imagens/bandejito_maquete_3d.gif" alt="Animação 3D na maquete: o Bandejito leva o pedido à Mesa 2, espera uma pessoa sair do caminho, gira 90° até ficar de frente para a mesa, o cliente pega o copo e aperta o botão verde, e ele volta ao balcão" height="300">
 </p>
 
 - 📡 O robô cria a própria rede Wi-Fi e serve um painel web com vídeo MJPEG
