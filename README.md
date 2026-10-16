@@ -9,24 +9,24 @@
 
 ## 🤖 Projeto em destaque: Bandejito 1.0
 
-**Robô garçom em miniatura com ESP32-CAM**: vídeo ao vivo e controle pelo navegador, simulador completo no PC e um modo autônomo que segue uma fita no chão até a mesa certa, dá meia-volta e volta para o balcão.
+**Robô garçom em miniatura com ESP32-CAM**: vídeo ao vivo e controle pelo navegador, simulador completo no PC e um modo autônomo que segue uma fita no chão até a mesa certa, vira de frente para ela, avisa por voz e volta para o balcão quando o cliente aperta o botão verde.
 
 <p align="center">
-  <img src="imagens/modelo_3d.gif" alt="Modelo 3D do Bandejito girando, com a carcaça e depois por dentro" height="300">
-  <img src="imagens/bandejito_maquete_3d.gif" alt="Teste completo no simulador: pedido para a Mesa 3, pessoa no caminho, entrega, meia-volta e volta ao balcão" height="300">
+  <img src="imagens/bandejito_esqueleto_3d.gif" alt="Modelo 3D do Bandejito: volta completa, portinhas abrindo e fechando, montagem peça por peça, eletrônica e fios por dentro e o chassi" height="300">
+  <img src="imagens/bandejito_maquete_3d.gif" alt="Animação 3D na maquete: o Bandejito leva um copo à Mesa 2, espera uma pessoa sair do caminho, entrega e volta ao balcão" height="300">
 </p>
 
 - 📡 O robô cria a própria rede Wi-Fi e serve um painel web com vídeo MJPEG
-- 🛑 Parada de segurança automática se a conexão cair
+- 🛑 Parada de segurança automática se a conexão cair e partida suave (o robô alto não "empina")
 - 🖥️ Simulador em Node.js com a mesma API do firmware, para testar sem hardware
-- 🧭 Seguidor de linha com controle PD, meia-volta no lugar, fila de pedidos e freio diante de obstáculos (no simulador)
-- 🖨️ Carcaça 3D paramétrica gerada por código (CadQuery/OpenSCAD)
+- 🧭 Seguidor de linha com controle PD, giro de 90° até a mesa, mensagem de voz, botão verde, fila de pedidos e freio diante de obstáculos (no simulador)
+- 🖨️ Carcaça 3D paramétrica gerada por código (CadQuery/OpenSCAD), com bandejas, portinhas de encaixe e pé antitombo, validada no modelo (colisões e centro de massa)
 
 | Painel de controle (vídeo ao vivo + direção) | Página de pedidos (modo autônomo) |
 |---|---|
 | ![Painel de controle do robô](imagens/painel.png) | ![Página de pedidos](imagens/pedidos.png) |
 
-👉 **[Ver o repositório](https://github.com/rincode-dev/robo-garcom-iot)** · Status: software pronto e testado no simulador, montagem do robô físico em andamento.
+👉 **[Ver o repositório](https://github.com/rincode-dev/robo-garcom-iot)** · Status: software pronto e testado no simulador; principais peças compradas, montagem do robô físico em seguida.
 
 ---
 
